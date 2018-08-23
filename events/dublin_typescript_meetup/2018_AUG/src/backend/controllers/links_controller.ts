@@ -180,8 +180,6 @@ export function getLinksHandlers(
     };
 
     // Returns all votes for links
-    // NOTE: this one was not required by the CA but I added
-    // it because it helped me to debug
     const getLinkVotesHandler =  (req: Request, res: Response) => {
         (async () => {
             try {
