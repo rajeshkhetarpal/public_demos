@@ -1,5 +1,7 @@
 # Node.js + TypeScript + TypeORM demo
 
+![](./slides.png)
+
 You can run the example using `npm install` and `ts-node ./src/backend/index.ts`
 
 Alternatively, you can use `npm start` which is an alias for `ts-node ./src/backend/index.ts`.
