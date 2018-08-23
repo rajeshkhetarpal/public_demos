@@ -8,7 +8,7 @@ export function getAuthHandlers(userRepository: Repository<User>) {
     const loginHandler = (req: Request, res: Response) => {
         (async () => {
 
-            // Read token from request headers
+            // Read secret key from environment variables
             const secret = process.env.AUTH_SECRET;
 
             // Validate inputs
